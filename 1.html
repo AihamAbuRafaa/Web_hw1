@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body,html{
+    height:100%;
+	margin: 0;
+}
+.flex-container {
+  display: flex;
+  height:100%;
+}
+
+.flex-container > div {
+  flex:1;
+}
+.flex-container > div:nth-child(3n-5){
+    background-color: blue;
+}
+.flex-container > div:nth-child(3n-1){
+    background-color: red;
+}
+.flex-container > div:nth-child(3n+0){
+    background-color: green;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="flex-container">
+  <div></div>
+  <div></div>
+  <div></div>  
+  <div></div>
+  <div></div>
+  <div></div>  
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+</body>
+</html>
